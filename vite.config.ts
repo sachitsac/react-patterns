@@ -11,5 +11,8 @@ export default defineConfig({
     globals: true,
     environment: "jsdom",
     setupFiles: ["setupTest.ts"],
+    coverage: {
+      provider: "istanbul",
+    },
   },
 });
