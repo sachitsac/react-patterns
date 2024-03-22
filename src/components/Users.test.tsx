@@ -39,7 +39,7 @@ describe("Users", () => {
   });
 
   it("should render empty message when users are not available", () => {
-    useUserSpy.mockReturnValue({ loading: false, users: undefined });
+    useUserSpy.mockReturnValue({ loading: false, users: [] });
     const component = setup();
     expect(screen.getByText("No users available")).toBeInTheDocument();
     expect(component).toMatchSnapshot();

@@ -5,7 +5,3 @@ exports[`Users > should render empty message when users are not available 1`] = 
 exports[`Users > should render list of users 1`] = `undefined`;
 
 exports[`Users > should render loading message when users are being fetched 1`] = `undefined`;
-
-exports[`Users > should render loading message when users are not available 1`] = `undefined`;
-
-exports[`Users > should render loading message when users are not available 2`] = `undefined`;
